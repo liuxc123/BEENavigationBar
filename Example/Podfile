@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BEENavigationBar_Example' do
+  pod 'BEENavigationBar', :path => '../'
+
+  target 'BEENavigationBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
