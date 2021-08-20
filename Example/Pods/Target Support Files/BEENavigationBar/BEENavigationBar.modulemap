@@ -1,0 +1,6 @@
+framework module BEENavigationBar {
+  umbrella header "BEENavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041176F426CE3193003F98B8 /* BEENextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041176F326CE3193003F98B8 /* BEENextViewController.m */; };
+		045D028F26CF910100A70841 /* BEETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D028E26CF910100A70841 /* BEETableViewController.m */; };
+		045D029226CF94B900A70841 /* BEEHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D029126CF94B900A70841 /* BEEHomeViewController.m */; };
 		191BED4603FD58C46649EDC7 /* Pods_BEENavigationBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9A9FA233AB22BB402999A2 /* Pods_BEENavigationBar_Example.framework */; };
 		5805D122E147A8D09CDD82EC /* Pods_BEENavigationBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F0469ECEFCEE05EBB4CD59 /* Pods_BEENavigationBar_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,7 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		077920C0A1CE237D8A2333C6 /* BEENavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BEENavigationBar.podspec; path = ../BEENavigationBar.podspec; sourceTree = "<group>"; };
+		041176F226CE3193003F98B8 /* BEENextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEENextViewController.h; sourceTree = "<group>"; };
+		041176F326CE3193003F98B8 /* BEENextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEENextViewController.m; sourceTree = "<group>"; };
+		045D028C26CF7C0000A70841 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		045D028D26CF910100A70841 /* BEETableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEETableViewController.h; sourceTree = "<group>"; };
+		045D028E26CF910100A70841 /* BEETableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEETableViewController.m; sourceTree = "<group>"; };
+		045D029026CF94B900A70841 /* BEEHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEEHomeViewController.h; sourceTree = "<group>"; };
+		045D029126CF94B900A70841 /* BEEHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEEHomeViewController.m; sourceTree = "<group>"; };
+		077920C0A1CE237D8A2333C6 /* BEENavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BEENavigationBar.podspec; path = ../BEENavigationBar.podspec; sourceTree = "<group>"; };
 		13ED4D6C66777D584E23C120 /* Pods-BEENavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEENavigationBar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BEENavigationBar_Tests/Pods-BEENavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		15F0469ECEFCEE05EBB4CD59 /* Pods_BEENavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEENavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6AD5087F8F791494F9D60A /* Pods-BEENavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEENavigationBar_Tests.release.xcconfig"; path = "Target Support Files/Pods-BEENavigationBar_Tests/Pods-BEENavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,9 +73,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EFAEE6BB0ED8CC3D187F31D /* Pods-BEENavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEENavigationBar_Example.debug.xcconfig"; path = "Target Support Files/Pods-BEENavigationBar_Example/Pods-BEENavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88EAAC43F078155362A4F102 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		88EAAC43F078155362A4F102 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD9A9FA233AB22BB402999A2 /* Pods_BEENavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEENavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFAEF7ECCA6ADD998BB384AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CFAEF7ECCA6ADD998BB384AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E7A873ACFA3294BD8D1A8A7E /* Pods-BEENavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEENavigationBar_Example.release.xcconfig"; path = "Target Support Files/Pods-BEENavigationBar_Example/Pods-BEENavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +147,13 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BEEViewController.h */,
 				6003F5A6195388D20070C39A /* BEEViewController.m */,
+				045D029026CF94B900A70841 /* BEEHomeViewController.h */,
+				045D029126CF94B900A70841 /* BEEHomeViewController.m */,
+				041176F226CE3193003F98B8 /* BEENextViewController.h */,
+				041176F326CE3193003F98B8 /* BEENextViewController.m */,
+				045D028D26CF910100A70841 /* BEETableViewController.h */,
+				045D028E26CF910100A70841 /* BEETableViewController.m */,
+				045D028C26CF7C0000A70841 /* PrefixHeader.pch */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +210,6 @@
 				13ED4D6C66777D584E23C120 /* Pods-BEENavigationBar_Tests.debug.xcconfig */,
 				3B6AD5087F8F791494F9D60A /* Pods-BEENavigationBar_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +224,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				BA62ED18AC17FA0BE75E7D6C /* [CP] Embed Pods Frameworks */,
+				798681015ACC28E62C4A319F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +265,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = liuxc123;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 835Q4MU3RA;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +278,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,6 +356,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		798681015ACC28E62C4A319F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BEENavigationBar_Example/Pods-BEENavigationBar_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BEENavigationBar/BEENavigationBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEENavigationBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BEENavigationBar_Example/Pods-BEENavigationBar_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7E45375DA6B0DCC03E4ADAA6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,24 +396,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA62ED18AC17FA0BE75E7D6C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BEENavigationBar_Example/Pods-BEENavigationBar_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BEENavigationBar/BEENavigationBar.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEENavigationBar.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BEENavigationBar_Example/Pods-BEENavigationBar_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -383,9 +403,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045D029226CF94B900A70841 /* BEEHomeViewController.m in Sources */,
 				6003F59E195388D20070C39A /* BEEAppDelegate.m in Sources */,
+				045D028F26CF910100A70841 /* BEETableViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* BEEViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				041176F426CE3193003F98B8 /* BEENextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,8 +536,9 @@
 			baseConfigurationReference = 7EFAEE6BB0ED8CC3D187F31D /* Pods-BEENavigationBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 835Q4MU3RA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BEENavigationBar/BEENavigationBar-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BEENavigationBar/BEENavigationBar-Prefix.pch";
 				INFOPLIST_FILE = "BEENavigationBar/BEENavigationBar-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -529,8 +553,9 @@
 			baseConfigurationReference = E7A873ACFA3294BD8D1A8A7E /* Pods-BEENavigationBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 835Q4MU3RA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BEENavigationBar/BEENavigationBar-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BEENavigationBar/BEENavigationBar-Prefix.pch";
 				INFOPLIST_FILE = "BEENavigationBar/BEENavigationBar-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

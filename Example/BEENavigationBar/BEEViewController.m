@@ -7,6 +7,9 @@
 //
 
 #import "BEEViewController.h"
+#import "BEENextViewController.h"
+#import "BEEHomeViewController.h"
+#import <BEENavigationBar/BEENavigationBarHeader.h>
 
 @interface BEEViewController ()
 
@@ -18,12 +21,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigation_item.title = @"Main";
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.navigationController pushViewController:[BEEHomeViewController new] animated:YES];
 }
 
 @end
