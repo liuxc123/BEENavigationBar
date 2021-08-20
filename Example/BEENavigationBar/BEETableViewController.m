@@ -7,6 +7,7 @@
 //
 
 #import "BEETableViewController.h"
+#import <BEENavigationBar/BEENavigationBarHeader.h>
 
 @interface BEETableViewController ()
 
@@ -22,6 +23,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigation_item.title = @"UITableViewController";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"reuseIdentifier"];
 }
 

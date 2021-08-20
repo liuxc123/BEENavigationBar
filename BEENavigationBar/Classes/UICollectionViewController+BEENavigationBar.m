@@ -19,8 +19,6 @@
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
-    [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
-    
     if ([keyPath isEqualToString:@"contentOffset"]) {
         [self.view bringSubviewToFront:self.navigation_bar];
         CGRect frame = self.navigation_bar.frame;

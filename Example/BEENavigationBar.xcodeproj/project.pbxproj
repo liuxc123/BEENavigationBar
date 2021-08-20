@@ -42,7 +42,6 @@
 /* Begin PBXFileReference section */
 		041176F226CE3193003F98B8 /* BEENextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEENextViewController.h; sourceTree = "<group>"; };
 		041176F326CE3193003F98B8 /* BEENextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEENextViewController.m; sourceTree = "<group>"; };
-		045D028C26CF7C0000A70841 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		045D028D26CF910100A70841 /* BEETableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEETableViewController.h; sourceTree = "<group>"; };
 		045D028E26CF910100A70841 /* BEETableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEETableViewController.m; sourceTree = "<group>"; };
 		045D029026CF94B900A70841 /* BEEHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEEHomeViewController.h; sourceTree = "<group>"; };
@@ -153,7 +152,6 @@
 				041176F326CE3193003F98B8 /* BEENextViewController.m */,
 				045D028D26CF910100A70841 /* BEETableViewController.h */,
 				045D028E26CF910100A70841 /* BEETableViewController.m */,
-				045D028C26CF7C0000A70841 /* PrefixHeader.pch */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,

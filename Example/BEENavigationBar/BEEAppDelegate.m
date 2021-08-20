@@ -27,7 +27,7 @@
     // config
     nav.navigation_configuration.isEnabled = YES;
     nav.navigation_configuration.barTintColor = UIColor.yellowColor;
-    nav.navigation_configuration.tintColor = UIColor.whiteColor;
+    nav.navigation_configuration.tintColor = UIColor.blackColor;
     nav.navigation_configuration.backItem = [[BEEBackItem alloc] initWithImage:[UIImage imageNamed:@"back"] tintColor:UIColor.blackColor];
 
     if (@available(iOS 11.0, *)) {
