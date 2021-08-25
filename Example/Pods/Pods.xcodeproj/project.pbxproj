@@ -27,12 +27,10 @@
 		416B795D0AFB3314988DD0E7B5CD56A2 /* Pods-BEENavigationBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35581E26110BA49560164A11B47C6B2E /* Pods-BEENavigationBar_Example-dummy.m */; };
 		5423F580AA55AB2E2C6F23FBC09CBB2E /* UITableViewController+BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D0201E04A1D756B588A4D62FCB6778 /* UITableViewController+BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54871CD204E439B2D3B15AF711761884 /* Pods-BEENavigationBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F82D3323AE68FF22E777547B3978C1 /* Pods-BEENavigationBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AB46703A59F11D4D64F764297C1AC35 /* UICollectionViewController+BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 41014027D907A81E6930CE0D29C09575 /* UICollectionViewController+BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AF61172E512E453D4A619AE35FC12EB /* BEENavigationBar+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A0209AD0BDB0179E12919DD065E650F6 /* BEENavigationBar+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F3312D5C5ADB477F5AF08F966FA6B77 /* BEEConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7901409E82AB201BDE1F8BBED2C20B57 /* BEEConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61E1BCB040AA0592F3CF3B2080C33C86 /* UINavigationBar+BEECommon.h in Headers */ = {isa = PBXBuildFile; fileRef = AC467B83A0B04A872F6C1CFB523A24F1 /* UINavigationBar+BEECommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		6EE497F56325953F24925878E72CC186 /* UICollectionViewController+BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B4B887DAA81A5579AC1EE955A616 /* UICollectionViewController+BEENavigationBar.m */; };
 		74003396F65365DDAE27EE62C099C359 /* UINavigationController+BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CC11FC5BC739B49E3AF514CF1992EA22 /* UINavigationController+BEENavigationBar.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8851E0566884E98F2F29CA0987AEE789 /* BEESwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF443816C4D42B24ACBEA485EA9726B /* BEESwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -117,27 +115,25 @@
 		35581E26110BA49560164A11B47C6B2E /* Pods-BEENavigationBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEENavigationBar_Example-dummy.m"; sourceTree = "<group>"; };
 		3E865EF8692CA3D4FED8B3A86D417535 /* Pods-BEENavigationBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEENavigationBar_Tests-Info.plist"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		3FD2B4B887DAA81A5579AC1EE955A616 /* UICollectionViewController+BEENavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewController+BEENavigationBar.m"; path = "BEENavigationBar/Classes/UICollectionViewController+BEENavigationBar.m"; sourceTree = "<group>"; };
 		40391AEBCCE9C7B21BC379E53A2552DA /* Pods-BEENavigationBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEENavigationBar_Tests.modulemap"; sourceTree = "<group>"; };
-		41014027D907A81E6930CE0D29C09575 /* UICollectionViewController+BEENavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewController+BEENavigationBar.h"; path = "BEENavigationBar/Classes/UICollectionViewController+BEENavigationBar.h"; sourceTree = "<group>"; };
 		42FA2EDDE01F919F4E1D1B8BB84802F4 /* Pods-BEENavigationBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEENavigationBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		43A1A361E8ED01CD6A6F16F162871F8D /* BEENavigationBarHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEENavigationBarHeader.h; path = BEENavigationBar/Classes/BEENavigationBarHeader.h; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4B39AF41BA96BD336319469C95B93621 /* BEENavigationBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BEENavigationBar.bundle; path = "BEENavigationBar-BEENavigationBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B39AF41BA96BD336319469C95B93621 /* BEENavigationBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BEENavigationBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		4FC98706BA5DCDEA7EDA9BC213788778 /* Pods-BEENavigationBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEENavigationBar_Example-Info.plist"; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		579E9D548386BC6AB59219B9789A82F3 /* BEENavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEENavigationBar.framework; path = BEENavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F67B8D50C0EDA3D5B43FBFEFE2414A6 /* BEENavigationBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BEENavigationBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		579E9D548386BC6AB59219B9789A82F3 /* BEENavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BEENavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F67B8D50C0EDA3D5B43FBFEFE2414A6 /* BEENavigationBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BEENavigationBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6EF443816C4D42B24ACBEA485EA9726B /* BEESwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEESwizzle.h; path = BEENavigationBar/Classes/BEESwizzle.h; sourceTree = "<group>"; };
 		704C11F89204A6FC1BCF0F29F5DF05F4 /* BEENavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEENavigationBar.m; path = BEENavigationBar/Classes/BEENavigationBar.m; sourceTree = "<group>"; };
 		78D0201E04A1D756B588A4D62FCB6778 /* UITableViewController+BEENavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewController+BEENavigationBar.h"; path = "BEENavigationBar/Classes/UITableViewController+BEENavigationBar.h"; sourceTree = "<group>"; };
 		7901409E82AB201BDE1F8BBED2C20B57 /* BEEConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEEConfiguration.h; path = BEENavigationBar/Classes/BEEConfiguration.h; sourceTree = "<group>"; };
-		7957B6E21A7FE481A4D40F949EA1376B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7C3BB05405E1F9F92BEC43ED587BA832 /* Pods_BEENavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEENavigationBar_Example.framework; path = "Pods-BEENavigationBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7957B6E21A7FE481A4D40F949EA1376B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C3BB05405E1F9F92BEC43ED587BA832 /* Pods_BEENavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEENavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		8666B287F8E8E2ED3355A7FE6F0419F4 /* Pods-BEENavigationBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEENavigationBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -147,7 +143,7 @@
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9B77A1A10164514B26508C224FBFBABA /* BEENavigationItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEENavigationItem.h; path = BEENavigationBar/Classes/BEENavigationItem.h; sourceTree = "<group>"; };
 		9D10013EE61204B33DFF49EF854574C6 /* BEENavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEENavigationBar-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0209AD0BDB0179E12919DD065E650F6 /* BEENavigationBar+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BEENavigationBar+Internal.h"; path = "BEENavigationBar/Classes/BEENavigationBar+Internal.h"; sourceTree = "<group>"; };
 		A02D24B72892AF40B50C342E11348C91 /* Pods-BEENavigationBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEENavigationBar_Example.modulemap"; sourceTree = "<group>"; };
 		A0EFADACE4B7151C64E22F850EBF6A68 /* BEEConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEEConfiguration.m; path = BEENavigationBar/Classes/BEEConfiguration.m; sourceTree = "<group>"; };
@@ -168,14 +164,14 @@
 		CE7CECB3BC6C4DFD0BC98C22117846E5 /* BEEBackBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEEBackBarButtonItem.h; path = BEENavigationBar/Classes/BEEBackBarButtonItem.h; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DA7AD3654A3A360FCA99639A65F08F64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DA7AD3654A3A360FCA99639A65F08F64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E117E0BD033C3C6B77BDF2BF7FDCBC79 /* BEENavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEENavigationBar-Info.plist"; sourceTree = "<group>"; };
 		E39CE5BFA08B59E007D200EFB951D7E0 /* UIViewController+BEENavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BEENavigationBar.h"; path = "BEENavigationBar/Classes/UIViewController+BEENavigationBar.h"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E94C0810E172FAE212ECE3C943F77982 /* BEENavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEENavigationBar.release.xcconfig; sourceTree = "<group>"; };
 		EF2AC15A33DDE8DC861C3610346309FD /* Pods-BEENavigationBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEENavigationBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		F2C66D5EC202EE8B28D4E3AC122D5C96 /* UIViewController+BEENavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BEENavigationBar.m"; path = "BEENavigationBar/Classes/UIViewController+BEENavigationBar.m"; sourceTree = "<group>"; };
-		FDD21C143417DC6E8BA9CFAF36905DB4 /* Pods_BEENavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEENavigationBar_Tests.framework; path = "Pods-BEENavigationBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD21C143417DC6E8BA9CFAF36905DB4 /* Pods_BEENavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEENavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -348,7 +344,6 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -367,8 +362,6 @@
 				308A0FC0EC4B9BDFCE7660A391637BF4 /* BEENavigationItem.m */,
 				6EF443816C4D42B24ACBEA485EA9726B /* BEESwizzle.h */,
 				2E340BD2D13A045E732D06D9617F1E77 /* BEESwizzle.m */,
-				41014027D907A81E6930CE0D29C09575 /* UICollectionViewController+BEENavigationBar.h */,
-				3FD2B4B887DAA81A5579AC1EE955A616 /* UICollectionViewController+BEENavigationBar.m */,
 				AC467B83A0B04A872F6C1CFB523A24F1 /* UINavigationBar+BEECommon.h */,
 				A9343F9C449C31B6BE060196D8E5E245 /* UINavigationBar+BEECommon.m */,
 				0F84CB46C89C2BDC9820C8DC4D490859 /* UINavigationController+BEENavigationBar.h */,
@@ -470,7 +463,6 @@
 				97448C68304C725528627A9BFA227011 /* BEENavigationBarHeader.h in Headers */,
 				226958B0E993A235802AA6A3C49662CE /* BEENavigationItem.h in Headers */,
 				8851E0566884E98F2F29CA0987AEE789 /* BEESwizzle.h in Headers */,
-				5AB46703A59F11D4D64F764297C1AC35 /* UICollectionViewController+BEENavigationBar.h in Headers */,
 				61E1BCB040AA0592F3CF3B2080C33C86 /* UINavigationBar+BEECommon.h in Headers */,
 				9AE0001954042DAE639C9292025914E4 /* UINavigationController+BEENavigationBar.h in Headers */,
 				5423F580AA55AB2E2C6F23FBC09CBB2E /* UITableViewController+BEENavigationBar.h in Headers */,
@@ -671,7 +663,6 @@
 				1DDE3D84D1CE51F46C06CC781547EA99 /* BEENavigationBar.m in Sources */,
 				05DDD315304C9E748C565E144E6EA771 /* BEENavigationItem.m in Sources */,
 				E4D0B6EF558BA42C26B5F014076E8A48 /* BEESwizzle.m in Sources */,
-				6EE497F56325953F24925878E72CC186 /* UICollectionViewController+BEENavigationBar.m in Sources */,
 				F897C763632BC6FFF272D72536B0D9B9 /* UINavigationBar+BEECommon.m in Sources */,
 				74003396F65365DDAE27EE62C099C359 /* UINavigationController+BEENavigationBar.m in Sources */,
 				0945BA76B5EB64F8F5C56B6C92DB1B33 /* UITableViewController+BEENavigationBar.m in Sources */,
@@ -1153,8 +1144,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

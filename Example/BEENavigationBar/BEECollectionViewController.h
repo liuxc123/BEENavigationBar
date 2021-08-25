@@ -1,8 +1,8 @@
 //
-//  UICollectionViewController+BEENavigationBar.h
+//  BEECollectionViewController.h
 //  BEENavigationBar_Example
 //
-//  Created by mac on 2021/8/20.
+//  Created by mac on 2021/8/25.
 //  Copyright © 2021 liuxc123. All rights reserved.
 //
 
@@ -10,9 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UICollectionViewController (BEENavigationBar)
-
-- (void)observeContentOffset;
+@interface BEECollectionViewController : UICollectionViewController
 
 @end
 

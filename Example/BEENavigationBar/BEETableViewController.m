@@ -25,6 +25,10 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.navigation_item.title = @"UITableViewController";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"reuseIdentifier"];
+    
+    if (@available(iOS 11.0, *)) {
+        self.navigation_bar.prefersLargeTitles = NO;
+    } 
 }
 
 #pragma mark - Table view data source

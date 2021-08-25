@@ -8,6 +8,7 @@
 
 #import "BEEHomeViewController.h"
 #import "BEENextViewController.h"
+
 #import <BEENavigationBar/BEENavigationBarHeader.h>
 
 @interface BEEHomeViewController () <UIScrollViewDelegate>

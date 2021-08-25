@@ -9,7 +9,6 @@
 #import "UIViewController+BEENavigationBar.h"
 #import "UINavigationController+BEENavigationBar.h"
 #import "UITableViewController+BEENavigationBar.h"
-#import "UICollectionViewController+BEENavigationBar.h"
 #import "BEENavigationBar+Internal.h"
 #import "BEEBackBarButtonItem.h"
 #import "BEENavigationItem.h"
@@ -66,10 +65,6 @@
     
     if ([self isKindOfClass:[UITableViewController class]]) {
         [(UITableViewController *)self observeContentOffset];
-    }
-    
-    if ([self isKindOfClass:[UICollectionViewController class]]) {
-        [(UICollectionViewController *)self observeContentOffset];
     }
 }
 

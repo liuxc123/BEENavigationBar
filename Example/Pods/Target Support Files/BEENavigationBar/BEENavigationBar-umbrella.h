@@ -17,7 +17,6 @@
 #import "BEENavigationBarHeader.h"
 #import "BEENavigationItem.h"
 #import "BEESwizzle.h"
-#import "UICollectionViewController+BEENavigationBar.h"
 #import "UINavigationBar+BEECommon.h"
 #import "UINavigationController+BEENavigationBar.h"
 #import "UITableViewController+BEENavigationBar.h"

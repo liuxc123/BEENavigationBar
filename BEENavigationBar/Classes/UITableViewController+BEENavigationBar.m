@@ -12,6 +12,11 @@
 
 @implementation UITableViewController (BEENavigationBar)
 
+- (void)dealloc
+{
+    [self.tableView removeObserver:self forKeyPath: @"contentOffset"];
+}
+
 - (void)observeContentOffset {
     self.navigation_bar.automaticallyAdjustsPosition = NO;
     [self.tableView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
