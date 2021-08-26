@@ -97,10 +97,10 @@ self.navigation_bar.statusBarStyle = UIStatusBarStyleDefault;
 self.navigation_bar.backBarButtonItem = [[BEEBackBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain tintColor:nil];
 
 // 允许返回事件
-    self.navigation_bar.backBarButtonItem.shouldBack = ^BOOL(BEEBackBarButtonItem * _Nonnull item) {
-        // do something
-        return NO;
-    };
+self.navigation_bar.backBarButtonItem.shouldBack = ^BOOL(BEEBackBarButtonItem * _Nonnull item) {
+    // do something
+    return NO;
+};
 
 // 返回事件之前回调
 self.navigation_bar.backBarButtonItem.willBack = ^{
