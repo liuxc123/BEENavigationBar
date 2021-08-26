@@ -29,6 +29,8 @@
     nav.navigation_configuration.barTintColor = UIColor.yellowColor;
     nav.navigation_configuration.tintColor = UIColor.blackColor;
     nav.navigation_configuration.backItem = [[BEEBackItem alloc] initWithImage:[UIImage imageNamed:@"back"] tintColor:UIColor.blackColor];
+    
+    nav.navigation_configuration.background = [[BEEBackground alloc] initWithImage:[UIImage imageNamed:@"back"] barPosition:UIBarPositionAny barMetrics: UIBarMetricsDefault];
 
     if (@available(iOS 11.0, *)) {
         nav.navigation_configuration.prefersLargeTitles = YES;
