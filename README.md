@@ -128,7 +128,7 @@ self.navigation_bar.shadow = [[BEEShadow alloc] initWithColor:UIColor.blackColor
 
 #### 大标题设置(iOS 11.0+)
 
-···
+```
 // 开启大标题
 self.navigation_bar.prefersLargeTitles = NO;
 
@@ -137,7 +137,7 @@ self.navigation_item.largeTitle.displayMode = UINavigationItemLargeTitleDisplayM
 
 // 设置大标题透明度
 [self.navigation_bar setLargeTitleAlpha:0.5];
-···
+```
 
 #### 关于约束
 
