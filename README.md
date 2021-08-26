@@ -146,7 +146,6 @@ self.navigation_item.largeTitle.displayMode = UINavigationItemLargeTitleDisplayM
 ```
 
 - 请注意 iOS 11 以上和以下的区别。
-- 
 
 ## 作者
 
