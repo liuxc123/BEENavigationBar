@@ -9,8 +9,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'BEENavigationBar/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.resource_bundles = {
-    'BEENavigationBar' => ['BEENavigationBar/Assets/*.png']
-  }
+  s.resources = 'BEENavigationBar/Assets/**/*'
 end
