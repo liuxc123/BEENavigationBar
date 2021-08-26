@@ -150,7 +150,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yDf-eD-PmL">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yDf-eD-PmL">
                                                 <rect key="frame" x="151.5" y="0.0" width="153.5" height="31"/>
                                                 <connections>
                                                     <action selector="changeStatusBarStyle:" destination="whP-gf-Uak" eventType="valueChanged" id="6YN-TI-2Mi"/>
@@ -167,7 +167,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ab-2A-B8x">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9ab-2A-B8x">
                                                 <rect key="frame" x="151.5" y="0.0" width="153.5" height="31"/>
                                                 <connections>
                                                     <action selector="isStatusBarHiddenAction:" destination="whP-gf-Uak" eventType="valueChanged" id="GwY-l6-RSM"/>

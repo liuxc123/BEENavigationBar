@@ -8,56 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C6AFF1F2F5C0B3DEC353D9357FA8E21 /* UINavigationBar+BEECommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE257C96248963AC98B3A190C3C8FD5 /* UINavigationBar+BEECommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E71D4B1B9BDE2D3C174F67FC6FCF73B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		00FF43D72C121A2299A8976B11DE305E /* UINavigationController+BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5D98A041AD6DB77C03FA487BB7AC59 /* UINavigationController+BEENavigationBar.m */; };
+		0B2512FDDBF13FE2D58DC54D898E8F56 /* BEENavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 933491B6F4AB320F6494FE6EFE553A98 /* BEENavigationItem.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		128E9A38C3749C8C2ADAAB4AED83667C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D785D4B5B0581702FEB63D26E7C45E /* XCTest.framework */; };
+		128E9A38C3749C8C2ADAAB4AED83667C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		1C9319EEFDB8579EE5A27CF3EE83E3E9 /* BEENavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6B6E0366817B184497A81913D37710 /* BEENavigationBar-dummy.m */; };
+		17CEE328BC73863D76AC1602E024DCF4 /* BEENavigationBarHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E69CC8EB501EE3AA186D377719F3528E /* BEENavigationBarHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25CE7CEFEA1FFC05226E70A378867B23 /* Pods-BEENavigationBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2AC15A33DDE8DC861C3610346309FD /* Pods-BEENavigationBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		278C4153EACFBD43DBCBB6082E6A8611 /* Pods-BEENavigationBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A0ADE95360AB0D8D79BC22DF653234 /* Pods-BEENavigationBar_Tests-dummy.m */; };
+		281DE13E82DEC6C591CC78DEE74DBDAD /* BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 174FC292DDC3008CCC5F0D2A46265CCC /* BEENavigationBar.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
-		30CCE35CFFE9DDAA904DE94B3E3088CB /* BEENavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 933491B6F4AB320F6494FE6EFE553A98 /* BEENavigationItem.m */; };
-		35F13BEB01287B87234D58BC29B83BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		3A9D965CD8F22C2344FB56FFCB0671AB /* BEEBackBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5523D8C80A21BE31396E51DFE35F70 /* BEEBackBarButtonItem.m */; };
-		3CABE474CF0409E94E22E02469EBBF91 /* UITableViewController+BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 757BE11E0EE1B9CFD41178BC63508B14 /* UITableViewController+BEENavigationBar.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264507D64793B8AA56330BA7CD8BB6B8 /* QuartzCore.framework */; };
+		35F13BEB01287B87234D58BC29B83BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */; };
+		3930F75FA1953B4AD79AD83E65E16378 /* UITableViewController+BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 96780E103FCE565C96CB05F2C2B0CD3A /* UITableViewController+BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		416B795D0AFB3314988DD0E7B5CD56A2 /* Pods-BEENavigationBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35581E26110BA49560164A11B47C6B2E /* Pods-BEENavigationBar_Example-dummy.m */; };
-		43C3D35A9C75301E880CA723B76C04B8 /* BEEConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E69272193000EBADFDB7A0CD6D37B8BB /* BEEConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D0A2A365C14AF1ECC4EB3A8D26D801D /* BEESwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2852BE4C40592804A49CF17D78204 /* BEESwizzle.m */; };
-		543E223BD07F6C495C983C4FF3843239 /* BEENavigationBarHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E69CC8EB501EE3AA186D377719F3528E /* BEENavigationBarHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D7BA522B0272108CCBFB2602111745 /* BEENavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FBF77A618A69632CABB59BD8943D67 /* BEENavigationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D0B64AD12BE1CB50CA0E544190C3AA /* UINavigationBar+BEECommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BDC33EB5E24241BDD026EE9D59AE78 /* UINavigationBar+BEECommon.m */; };
+		4D004AA164CA0638CFA21447CD2A4964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CCE42A69837A23C090F29AD42755F7 /* UIKit.framework */; };
 		54871CD204E439B2D3B15AF711761884 /* Pods-BEENavigationBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F82D3323AE68FF22E777547B3978C1 /* Pods-BEENavigationBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CE0EBE4AC1DEA674C86FAEC6871CE4 /* BEENavigationBar+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C39D4C8FC74F7AC2D886DBD07FCFDFFE /* BEENavigationBar+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B1040B4781F367727C70EBF06E70CB2 /* BEENavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6B6E0366817B184497A81913D37710 /* BEENavigationBar-dummy.m */; };
+		5CC4880538DC1C68213F01C11360AF83 /* BEEConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E69272193000EBADFDB7A0CD6D37B8BB /* BEEConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		7B23E1D4CD55FFB1371588AD5B98F0E9 /* UIViewController+BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B0AFD92C1ADCD28744DC1F72139173 /* UIViewController+BEENavigationBar.m */; };
+		6DF34291B29FF3B7B0CE862648094149 /* BEENavigationBar+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C39D4C8FC74F7AC2D886DBD07FCFDFFE /* BEENavigationBar+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73CA4E963CECF1D5C3449937F4FDBF84 /* BEESwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E2852BE4C40592804A49CF17D78204 /* BEESwizzle.m */; };
+		7C3A4EC8F2A5FDA19BC9B7F0F937CC68 /* UIViewController+BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B0AFD92C1ADCD28744DC1F72139173 /* UIViewController+BEENavigationBar.m */; };
+		7CAA4003787D68DED1AD77882020E81A /* BEENavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C40C128649CE8C598B157A58A6A1C9CB /* BEENavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8865A4FF9171F2A8B03D12A3A499FED7 /* BEEConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F6528AF54A0004BA50B7A47F9588C /* BEEConfiguration.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E653827F1AFAF1EFECEA87AE049012 /* UIViewController+BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD482D07EFC6EBF85911840CDF27745 /* UIViewController+BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9662AE8FCCCC9671B38ED6FBB26D33BD /* BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 174FC292DDC3008CCC5F0D2A46265CCC /* BEENavigationBar.m */; };
+		928F2E1295FD1C854FD3A552F9131E78 /* BEEBackBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5523D8C80A21BE31396E51DFE35F70 /* BEEBackBarButtonItem.m */; };
+		98E3352D8FFD832A472B23D60DBC956F /* UITableViewController+BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 757BE11E0EE1B9CFD41178BC63508B14 /* UITableViewController+BEENavigationBar.m */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		A05DF4DFF6B151758FE48D550F678D6D /* UINavigationBar+BEECommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BDC33EB5E24241BDD026EE9D59AE78 /* UINavigationBar+BEECommon.m */; };
-		A4B277D9927D5051889BE03D169FF721 /* UINavigationController+BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0281497131F8AAEC5838FFB9DAF0A8 /* UINavigationController+BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4933558E90070B41FF47B1A837FF842 /* UIViewController+BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD482D07EFC6EBF85911840CDF27745 /* UIViewController+BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		A701FF9EF6D441FBE9D41580B5B86A5E /* BEENavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FBF77A618A69632CABB59BD8943D67 /* BEENavigationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B06D76820EBCBD59C5BA6D2C2721EB6F /* BEEConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F6528AF54A0004BA50B7A47F9588C /* BEEConfiguration.m */; };
+		A67CB3B7A2C1BF788A29F6D1C24A431B /* BEESwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 844B1F8734CFFC0F78405D9B986FA10E /* BEESwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B141FD921FA05F30FE4AC9EEAD0FDC12 /* UINavigationBar+BEECommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE257C96248963AC98B3A190C3C8FD5 /* UINavigationBar+BEECommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BB96553A7D590844A2F7D8E0890E9960 /* UINavigationController+BEENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5D98A041AD6DB77C03FA487BB7AC59 /* UINavigationController+BEENavigationBar.m */; };
-		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		B8E3D1C4D2B1720EC57EBCAA85326CD2 /* BEENavigationBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0504B4B7AB585E6EEDDD57E7B510F52E /* BEENavigationBar.xcassets */; };
+		B90C0EC21E7606B530F693C8654E9416 /* BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C195E043578D89F6C8239650187656CA /* BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CCE42A69837A23C090F29AD42755F7 /* UIKit.framework */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7E3BE121F2C5382EA2911247C6A5F50 /* BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C195E043578D89F6C8239650187656CA /* BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9F8AB8546B695912B216587824290D6 /* BEEBackBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B257A383A42BFBB80AC699C7324801 /* BEEBackBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */; };
+		CE3E9D02FEA81DCEDC8FDF4FF1060B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D3C191DD7089F27CB78626CA10DE7321 /* BEESwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 844B1F8734CFFC0F78405D9B986FA10E /* BEESwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D452DAB01D8EB0BDB09B96C6DEB499EB /* BEENavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C40C128649CE8C598B157A58A6A1C9CB /* BEENavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E88A2C4CE05C17DE5C411CA75A8DD81E /* UITableViewController+BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 96780E103FCE565C96CB05F2C2B0CD3A /* UITableViewController+BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1C5BC85EF774CA4A641E08ACDF75050 /* BEEBackBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B257A383A42BFBB80AC699C7324801 /* BEEBackBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E82D62E025A37AFB93F6E7A8ED9BF0E8 /* UINavigationController+BEENavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0281497131F8AAEC5838FFB9DAF0A8 /* UINavigationController+BEENavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE7332D3E980214C688D031834C40340 /* BEENavigationBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0504B4B7AB585E6EEDDD57E7B510F52E /* BEENavigationBar.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +69,7 @@
 			remoteGlobalIDString = D6B6816A67D1926557AC3096872BD457;
 			remoteInfo = BEENavigationBar;
 		};
-		BA5F7A49F4029F1B5AB66D0C8CAFB74F /* PBXContainerItemProxy */ = {
+		322CB186C39DD81614E5DFF9A3E9E611 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -92,14 +93,14 @@
 		0941AA9CE857EA3456C7A5C3286D9E26 /* Pods-BEENavigationBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEENavigationBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		11BB7E86E831269D7ABB764065A426FA /* Pods-BEENavigationBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEENavigationBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14D785D4B5B0581702FEB63D26E7C45E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		174FC292DDC3008CCC5F0D2A46265CCC /* BEENavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEENavigationBar.m; path = BEENavigationBar/Classes/BEENavigationBar.m; sourceTree = "<group>"; };
 		1A1BA546F282054E5BF4D413025DAD5C /* Pods-BEENavigationBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEENavigationBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		264507D64793B8AA56330BA7CD8BB6B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		32F82D3323AE68FF22E777547B3978C1 /* Pods-BEENavigationBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEENavigationBar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3388DC5E61F0EEE4F236A8AAE8CA431E /* BEENavigationBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEENavigationBar.modulemap; sourceTree = "<group>"; };
 		34785534BBF27D622F89D59C4EA68267 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
@@ -117,7 +118,6 @@
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		4E6B6E0366817B184497A81913D37710 /* BEENavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEENavigationBar-dummy.m"; sourceTree = "<group>"; };
 		4FC98706BA5DCDEA7EDA9BC213788778 /* Pods-BEENavigationBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEENavigationBar_Example-Info.plist"; sourceTree = "<group>"; };
-		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		579E9D548386BC6AB59219B9789A82F3 /* BEENavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEENavigationBar.framework; path = BEENavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
@@ -154,14 +154,15 @@
 		C195E043578D89F6C8239650187656CA /* BEENavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEENavigationBar.h; path = BEENavigationBar/Classes/BEENavigationBar.h; sourceTree = "<group>"; };
 		C39D4C8FC74F7AC2D886DBD07FCFDFFE /* BEENavigationBar+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BEENavigationBar+Internal.h"; path = "BEENavigationBar/Classes/BEENavigationBar+Internal.h"; sourceTree = "<group>"; };
 		C40C128649CE8C598B157A58A6A1C9CB /* BEENavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEENavigationBar-umbrella.h"; sourceTree = "<group>"; };
+		C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E69272193000EBADFDB7A0CD6D37B8BB /* BEEConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEEConfiguration.h; path = BEENavigationBar/Classes/BEEConfiguration.h; sourceTree = "<group>"; };
 		E69CC8EB501EE3AA186D377719F3528E /* BEENavigationBarHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEENavigationBarHeader.h; path = BEENavigationBar/Classes/BEENavigationBarHeader.h; sourceTree = "<group>"; };
 		E8BDC33EB5E24241BDD026EE9D59AE78 /* UINavigationBar+BEECommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+BEECommon.m"; path = "BEENavigationBar/Classes/UINavigationBar+BEECommon.m"; sourceTree = "<group>"; };
 		EF2AC15A33DDE8DC861C3610346309FD /* Pods-BEENavigationBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEENavigationBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		F1CCE42A69837A23C090F29AD42755F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FDD21C143417DC6E8BA9CFAF36905DB4 /* Pods_BEENavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEENavigationBar_Tests.framework; path = "Pods-BEENavigationBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		FF0281497131F8AAEC5838FFB9DAF0A8 /* UINavigationController+BEENavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+BEENavigationBar.h"; path = "BEENavigationBar/Classes/UINavigationController+BEENavigationBar.h"; sourceTree = "<group>"; };
@@ -184,11 +185,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9628E94CC034590DC56054CB1B588BFC /* Frameworks */ = {
+		E01376BB11A50A7056AAE1BC9A768920 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E71D4B1B9BDE2D3C174F67FC6FCF73B /* Foundation.framework in Frameworks */,
+				CE3E9D02FEA81DCEDC8FDF4FF1060B31 /* Foundation.framework in Frameworks */,
+				4D004AA164CA0638CFA21447CD2A4964 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +325,7 @@
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+				D1EBE331F75D6C897FECFE4C7340C257 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -349,6 +351,17 @@
 				3FD9FCBC6A2D75AEEBEAE5FE96688DE9 /* Products */,
 				7F3C677E5017FF0ECB02931275C03F1D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D1EBE331F75D6C897FECFE4C7340C257 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5FB2F9BF0AD9E9C05F9C98CBA51D9B5 /* Foundation.framework */,
+				264507D64793B8AA56330BA7CD8BB6B8 /* QuartzCore.framework */,
+				F1CCE42A69837A23C090F29AD42755F7 /* UIKit.framework */,
+				14D785D4B5B0581702FEB63D26E7C45E /* XCTest.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E284CD876F8E7D328D955601A84D4D03 /* Pods-BEENavigationBar_Example */ = {
@@ -407,17 +420,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
-				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
-				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
-				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -436,22 +438,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430229515AFAA3F1FD89E0E7208D601D /* Headers */ = {
+		92F71051A419FCDF65CE0B129F85C07B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F8AB8546B695912B216587824290D6 /* BEEBackBarButtonItem.h in Headers */,
-				43C3D35A9C75301E880CA723B76C04B8 /* BEEConfiguration.h in Headers */,
-				65CE0EBE4AC1DEA674C86FAEC6871CE4 /* BEENavigationBar+Internal.h in Headers */,
-				D452DAB01D8EB0BDB09B96C6DEB499EB /* BEENavigationBar-umbrella.h in Headers */,
-				C7E3BE121F2C5382EA2911247C6A5F50 /* BEENavigationBar.h in Headers */,
-				543E223BD07F6C495C983C4FF3843239 /* BEENavigationBarHeader.h in Headers */,
-				A701FF9EF6D441FBE9D41580B5B86A5E /* BEENavigationItem.h in Headers */,
-				D3C191DD7089F27CB78626CA10DE7321 /* BEESwizzle.h in Headers */,
-				0C6AFF1F2F5C0B3DEC353D9357FA8E21 /* UINavigationBar+BEECommon.h in Headers */,
-				A4B277D9927D5051889BE03D169FF721 /* UINavigationController+BEENavigationBar.h in Headers */,
-				E88A2C4CE05C17DE5C411CA75A8DD81E /* UITableViewController+BEENavigationBar.h in Headers */,
-				95E653827F1AFAF1EFECEA87AE049012 /* UIViewController+BEENavigationBar.h in Headers */,
+				D1C5BC85EF774CA4A641E08ACDF75050 /* BEEBackBarButtonItem.h in Headers */,
+				5CC4880538DC1C68213F01C11360AF83 /* BEEConfiguration.h in Headers */,
+				6DF34291B29FF3B7B0CE862648094149 /* BEENavigationBar+Internal.h in Headers */,
+				7CAA4003787D68DED1AD77882020E81A /* BEENavigationBar-umbrella.h in Headers */,
+				B90C0EC21E7606B530F693C8654E9416 /* BEENavigationBar.h in Headers */,
+				17CEE328BC73863D76AC1602E024DCF4 /* BEENavigationBarHeader.h in Headers */,
+				43D7BA522B0272108CCBFB2602111745 /* BEENavigationItem.h in Headers */,
+				A67CB3B7A2C1BF788A29F6D1C24A431B /* BEESwizzle.h in Headers */,
+				B141FD921FA05F30FE4AC9EEAD0FDC12 /* UINavigationBar+BEECommon.h in Headers */,
+				E82D62E025A37AFB93F6E7A8ED9BF0E8 /* UINavigationController+BEENavigationBar.h in Headers */,
+				3930F75FA1953B4AD79AD83E65E16378 /* UITableViewController+BEENavigationBar.h in Headers */,
+				A4933558E90070B41FF47B1A837FF842 /* UIViewController+BEENavigationBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +489,7 @@
 			);
 			dependencies = (
 				917743A06A715E86B57D65D1548B3D02 /* PBXTargetDependency */,
-				104815AC7A74457C540FE5E194DC0726 /* PBXTargetDependency */,
+				78FCFF7250E1567E9949B4A46A06EEC9 /* PBXTargetDependency */,
 			);
 			name = "Pods-BEENavigationBar_Tests";
 			productName = "Pods-BEENavigationBar_Tests";
@@ -533,12 +535,12 @@
 		};
 		D6B6816A67D1926557AC3096872BD457 /* BEENavigationBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18E0A16EC3A115290504991F968994A1 /* Build configuration list for PBXNativeTarget "BEENavigationBar" */;
+			buildConfigurationList = 8C63AC4731B2A5CA764619F05173301E /* Build configuration list for PBXNativeTarget "BEENavigationBar" */;
 			buildPhases = (
-				430229515AFAA3F1FD89E0E7208D601D /* Headers */,
-				AE42D5FD70526FB4201857DB04AABA94 /* Sources */,
-				9628E94CC034590DC56054CB1B588BFC /* Frameworks */,
-				79C77FBE181C265A23FEDB886C80A05E /* Resources */,
+				92F71051A419FCDF65CE0B129F85C07B /* Headers */,
+				DEC320A40ADFDECA54AB5CEBBC362895 /* Sources */,
+				E01376BB11A50A7056AAE1BC9A768920 /* Frameworks */,
+				84EB479432A13767536D054859E25B91 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -587,18 +589,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79C77FBE181C265A23FEDB886C80A05E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE7332D3E980214C688D031834C40340 /* BEENavigationBar.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C2D245C43765BC0AA0B1D03D24F8C37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EB479432A13767536D054859E25B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E3D1C4D2B1720EC57EBCAA85326CD2 /* BEENavigationBar.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,31 +646,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE42D5FD70526FB4201857DB04AABA94 /* Sources */ = {
+		DEC320A40ADFDECA54AB5CEBBC362895 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A9D965CD8F22C2344FB56FFCB0671AB /* BEEBackBarButtonItem.m in Sources */,
-				B06D76820EBCBD59C5BA6D2C2721EB6F /* BEEConfiguration.m in Sources */,
-				1C9319EEFDB8579EE5A27CF3EE83E3E9 /* BEENavigationBar-dummy.m in Sources */,
-				9662AE8FCCCC9671B38ED6FBB26D33BD /* BEENavigationBar.m in Sources */,
-				30CCE35CFFE9DDAA904DE94B3E3088CB /* BEENavigationItem.m in Sources */,
-				4D0A2A365C14AF1ECC4EB3A8D26D801D /* BEESwizzle.m in Sources */,
-				A05DF4DFF6B151758FE48D550F678D6D /* UINavigationBar+BEECommon.m in Sources */,
-				BB96553A7D590844A2F7D8E0890E9960 /* UINavigationController+BEENavigationBar.m in Sources */,
-				3CABE474CF0409E94E22E02469EBBF91 /* UITableViewController+BEENavigationBar.m in Sources */,
-				7B23E1D4CD55FFB1371588AD5B98F0E9 /* UIViewController+BEENavigationBar.m in Sources */,
+				928F2E1295FD1C854FD3A552F9131E78 /* BEEBackBarButtonItem.m in Sources */,
+				8865A4FF9171F2A8B03D12A3A499FED7 /* BEEConfiguration.m in Sources */,
+				5B1040B4781F367727C70EBF06E70CB2 /* BEENavigationBar-dummy.m in Sources */,
+				281DE13E82DEC6C591CC78DEE74DBDAD /* BEENavigationBar.m in Sources */,
+				0B2512FDDBF13FE2D58DC54D898E8F56 /* BEENavigationItem.m in Sources */,
+				73CA4E963CECF1D5C3449937F4FDBF84 /* BEESwizzle.m in Sources */,
+				46D0B64AD12BE1CB50CA0E544190C3AA /* UINavigationBar+BEECommon.m in Sources */,
+				00FF43D72C121A2299A8976B11DE305E /* UINavigationController+BEENavigationBar.m in Sources */,
+				98E3352D8FFD832A472B23D60DBC956F /* UITableViewController+BEENavigationBar.m in Sources */,
+				7C3A4EC8F2A5FDA19BC9B7F0F937CC68 /* UIViewController+BEENavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		104815AC7A74457C540FE5E194DC0726 /* PBXTargetDependency */ = {
+		78FCFF7250E1567E9949B4A46A06EEC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BEENavigationBar_Example";
 			target = 53E3C83CBA9DC3A47E6336E9EEB00914 /* Pods-BEENavigationBar_Example */;
-			targetProxy = BA5F7A49F4029F1B5AB66D0C8CAFB74F /* PBXContainerItemProxy */;
+			targetProxy = 322CB186C39DD81614E5DFF9A3E9E611 /* PBXContainerItemProxy */;
 		};
 		917743A06A715E86B57D65D1548B3D02 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -685,37 +687,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01F91990C4AE31C663F767E43CA4F703 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 350A95557BFE326FE448A5344D14E42F /* BEENavigationBar.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BEENavigationBar/BEENavigationBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BEENavigationBar/BEENavigationBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BEENavigationBar/BEENavigationBar.modulemap";
-				PRODUCT_MODULE_NAME = BEENavigationBar;
-				PRODUCT_NAME = BEENavigationBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0267EFB66EBAC0CCC74EDD5FCD88F22A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05BE7C98033CF82F3D72A64099EA25DC /* Pods-BEENavigationBar_Tests.release.xcconfig */;
@@ -910,9 +881,9 @@
 			};
 			name = Debug;
 		};
-		97E537A0C00194B5DC655D00B2CE1FC3 /* Debug */ = {
+		AEB17977658236ED4E694742F48BD851 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 477B6EAE25F600468D3D105DFAA6186B /* BEENavigationBar.debug.xcconfig */;
+			baseConfigurationReference = 350A95557BFE326FE448A5344D14E42F /* BEENavigationBar.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -935,10 +906,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B9EF68CD26A6BCCDD767FCF6E54259D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1065,6 +1037,36 @@
 			};
 			name = Release;
 		};
+		E19D1B21CC4196630814CE76FCB33C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477B6EAE25F600468D3D105DFAA6186B /* BEENavigationBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEENavigationBar/BEENavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEENavigationBar/BEENavigationBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEENavigationBar/BEENavigationBar.modulemap";
+				PRODUCT_MODULE_NAME = BEENavigationBar;
+				PRODUCT_NAME = BEENavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1073,15 +1075,6 @@
 			buildConfigurations = (
 				864200D974BCB8F0D6371A2FE2C65B05 /* Debug */,
 				636CD5B4F2C55BB2934D4C25B6947679 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18E0A16EC3A115290504991F968994A1 /* Build configuration list for PBXNativeTarget "BEENavigationBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				97E537A0C00194B5DC655D00B2CE1FC3 /* Debug */,
-				01F91990C4AE31C663F767E43CA4F703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1100,6 +1093,15 @@
 			buildConfigurations = (
 				B9EF68CD26A6BCCDD767FCF6E54259D0 /* Debug */,
 				0267EFB66EBAC0CCC74EDD5FCD88F22A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C63AC4731B2A5CA764619F05173301E /* Build configuration list for PBXNativeTarget "BEENavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19D1B21CC4196630814CE76FCB33C66 /* Debug */,
+				AEB17977658236ED4E694742F48BD851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

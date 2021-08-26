@@ -17,6 +17,11 @@
   "platforms": {
     "ios": "9.0"
   },
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
   "source_files": "BEENavigationBar/Classes/**/*",
   "resources": "BEENavigationBar/Assets/**/*"
 }

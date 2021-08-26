@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BEENavigationBar: 20ef49acfa0d92031cd54c4affac9a8a1956740f
+  BEENavigationBar: 1a73d6cdfa43418b51ed70bc43bdfcbdab1ca52c
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: 0acc379682e408ebdefc5252ac236bf21ebae140
