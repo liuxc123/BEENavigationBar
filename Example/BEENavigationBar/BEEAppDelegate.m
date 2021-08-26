@@ -22,7 +22,9 @@
     
     window.backgroundColor = [UIColor whiteColor];
     
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController: [BEEViewController new]];
+    BEEViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateInitialViewController];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController: vc];
     
     // config
     nav.navigation_configuration.isEnabled = YES;

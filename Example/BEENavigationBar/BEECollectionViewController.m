@@ -29,7 +29,7 @@ static NSString * const reuseIdentifier = @"Cell";
     
     // Do any additional setup after loading the view.
     if (@available(iOS 11.0, *)) {
-        self.navigation_bar.prefersLargeTitles = NO;
+        self.navigation_bar.prefersLargeTitles = YES;
     }
 }
 

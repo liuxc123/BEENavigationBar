@@ -27,7 +27,7 @@
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"reuseIdentifier"];
     
     if (@available(iOS 11.0, *)) {
-        self.navigation_bar.prefersLargeTitles = NO;
+        self.navigation_bar.prefersLargeTitles = YES;
     } 
 }
 
